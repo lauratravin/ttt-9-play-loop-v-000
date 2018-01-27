@@ -38,7 +38,7 @@ end
 fullboard= ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
 # Define your play method below
 def play(board)
-  while board != fullboard  
+  while board != fullboard
       turn(board)
   end
 end
